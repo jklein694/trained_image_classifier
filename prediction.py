@@ -46,7 +46,7 @@ def model_predictions(path):
     return o
 
 
-path = # ADD PICTURE
+path = ''
 prediction = model_predictions(path)
 
 if prediction[0]:
