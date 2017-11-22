@@ -1,1 +1,1 @@
-web: bundle exec rails server -p $PORT
+web: gunicorn trained_image_classifier.wsgi --log-file -
